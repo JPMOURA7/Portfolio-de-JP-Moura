@@ -1,6 +1,11 @@
 body{
   font-family: Roboto, sans-serif;
-}	
+  color:#333333;
+}
+a:link, a:visited, a:active{
+	color:#315eab;
+	text-decoration:none;
+}
 .linha{
 	width:960px;
 	margin:0 auto;
@@ -47,21 +52,72 @@ body{
 .col12{
 	width:940px;
 }
-		/*<header>
-			<nav>
-				
-			</nav>
-		</header>
-		<section>
-			
-		</section>
-		<article>
-			
-		</article>
-		<aside>
-			
-		</aside>
-		<footer>
-
-		</footer>*/
-		
+.menu{
+	list-style:none;
+	text-transform:uppercase;
+	text-align:right;
+	margin-top:25px;
+}
+.sem-padding{
+	padding:0 |important;
+}
+.sem-margin{
+	margin:0 |important
+}h1, h2, h3, h4, h5, h6{
+	font-weight:500;
+	margin:15px 0 10px 0;
+}
+ul li, ol li{
+	margin-bottom:5px;
+}
+ul.inline li, ol.inline li{
+	display:inline;
+	margin-right:15px;
+}
+a.botao, input.botao{
+	background:#1f3c58;
+	padding:5px 10px;
+	border-radius:3px;
+	color:#ebebeb;
+	cursor:pointer;
+	margin:5px 0;
+	display:inline-block;
+	border:none;
+}
+a.botao:hover, input.botao:hover{
+	background:#315e8a;
+	text
+}
+ul.inline li:last-child, ol.inline li:last-child{
+	margin-right:0;
+}
+ul.sem-marcador, ol.sem-marcador{
+	list-style:none;
+}
+/*layout*/
+img{
+max-widht:100%;
+height:auto;
+}
+.header{
+	background:#dee3e6;
+}
+h1.logo{
+	font-weight:300;
+	letter-spacing:-2px;
+}
+footer{
+	background:#dee3e6;
+	padding:20px 0;
+	text-align:center;
+	font-weight:100;
+}
+.menu li a{
+	padding:5px 10px;
+	border-radius:3px;
+}
+.menu li a:hover{
+	text-decoration:none;
+	background:black;
+	color:#ebebeb;
+}
