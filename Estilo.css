@@ -121,6 +121,16 @@ footer{
 	background:black;
 	color:#ebebeb;
 }
-img{
+.certificado{
 	width:450px;
+}
+.logorede{
+	width:20px;
+	padding:0px 5px;
+}
+.Linguagens{
+	display:inline;
+}
+.tirarpadding{
+	padding:0 0 0 0;
 }
